@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    height: 200px;
+grid-gap: 6px;
+display: grid;
+align-content: center;
+}
+.date{
+    background:rgb(167, 183, 238);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.day{
+    background-color: greenyellow;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#closeday{
+    background-color: red;
+}
+.container{
+   width: 800px;
+   height: 380px;
+  background-image: url(https://thumbs.dreamstime.com/b/autumn-landscape-nature-background-dried-flowers-water-drops-rain-field-banner-selective-focus-75038244.jpg);
+background-repeat: repeat;
+
+  margin-left: 300px;
+
+}
+.jan{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
